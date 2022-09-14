@@ -1,0 +1,104 @@
+
+    h1{
+        color:rgb(22, 24, 22) ;
+        margin-left: 20px;
+        padding: 30px;
+    }
+    *{
+        color:rgb(0, 0, 0) ;
+    }
+    .Header {
+         
+background-color: rgb(88, 221, 17);
+
+display: flex;
+justify-content: space-between;
+
+margin-left: 20px;
+padding: 30px;
+    }
+    .Header *{
+        border:solid
+        
+    }
+
+    
+
+
+
+    
+.Projects{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Social_Media{
+
+
+    display: flex;
+    justify-content: flex-end;
+}
+.Social_Media_Text{
+
+
+    display: flex;
+    justify-content: flex-end;
+}
+.backGround{
+    background-color: #dddddd;
+
+
+}
+
+.Projects{
+    border:solid;
+    margin-left: 20px;
+    
+
+}
+.Menue a{
+
+margin:20px;
+border:20px;
+
+
+}
+a:visited{
+color:#0000ff
+}
+a:link{
+    color:#ff0000
+    }
+a:hover{
+color:#ff00ff
+}
+.Images{
+position:relative
+
+
+}
+.Images h3{
+    position:absolute ;
+    top:50%;
+    left:30%;
+    transform:translate(-50,-50);
+}
+.Images:hover h3 {
+opacity:1 ;
+
+}
+.Images:hover img {
+    opacity:30% ;
+    
+    }
+
+
+
+
+
+
+
+
+
+
